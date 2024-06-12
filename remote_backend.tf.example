@@ -1,0 +1,8 @@
+terraform {
+  cloud {
+    organization = "MM"
+    workspaces {
+      name = "SATHYA_WORKSPACE"
+    }
+  }
+}
